@@ -12,6 +12,7 @@
    ">
   
   <context:component-scan base-package="com.subhash.controller"></context:component-scan>
+  <context:component-scan base-package="com.sk.myshoppingbackend.daoimpl"></context:component-scan>
    
   <bean id="veiwResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     <property name="prefix" value="/WEB-INF/views/"/>
